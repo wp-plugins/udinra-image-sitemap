@@ -2,8 +2,8 @@
 Contributors: Udinra
 Tags: xml sitemaps, google sitemaps, image sitemap, seo, search engines, sitemap, britepic, monetizing images, adbrite
 Requires at least: 2.9.2
-Tested up to: 3.2
-Stable tag: 1.0
+Tested up to: 3.2.1
+Stable tag: 1.1
 
 This plugin will help you generate Image Sitemaps (XML) for your WordPress blog from images advertised using Britepic technology of Adbrite. 
 
@@ -13,23 +13,21 @@ The plugin generates a XML Image Sitemap from the images powered by Britepic tec
 
 Britepic is technology of Adbrite which helps you monetize your images by placing advertisements.
 
-For updates, you can follow the [author](http://udinra.com).
+The pro version of plugin has many additional features and also support and help is available for pro version users.Download pro version at http://udinra.com/store/products/udinra-image-sitemap-for-britepic-images.
+
+For updates, you can follow the [author](http://udinra.com/).
 
 == Installation ==
 
 Here's how you can install the plugin:
 
-1. Upload the plugins folder to the /wp-content/plugins/ directory.
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Expand the Tools menu from WordPress dashboard sidebar and select "Udinra Image Sitemap."
-1. Click the "Generate Sitemap" button to create your XML Sitemap for Images powered by Britepic.
-1. Once you have created your Sitemap, you can submit it to Google using Webmaster Tools. 
+http://udinra.com/blog/create-image-sitemap-from-britepic-images 
 
 == Frequently Asked Questions ==
 
-= How can I submit my image sitemap to Google? =
+= How can I submit my image sitemap to Google and Bing? =
 
-Once you have created your Sitemap, you can submit it to Google using Webmaster Tools. 
+The pro version of plugin does it automatically. 
 
 = Where's the sitemap file stored? =
 
@@ -41,4 +39,4 @@ Please create sitemap-image.xml in your Wordpress installation root directory an
 
 == Screenshots ==
 
-1. Sample Image Sitemap generated using Udinra Image Sitemap.
+http://udinra.com/blog/create-image-sitemap-from-britepic-images

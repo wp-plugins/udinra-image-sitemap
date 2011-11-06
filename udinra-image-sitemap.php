@@ -4,7 +4,7 @@ Plugin Name: Udinra Image Sitemap for Britepic
 Plugin URI: http://udinra.com/blog/britepic-image-sitemap-wordpress-plugin
 Description: The plugin generates a XML Image Sitemap from the images powered by Britepic technology of Adbrite.
 Author: Udinra
-Version: 1
+Version: 1.1
 Author URI: http://udinra.com/
 */
 
@@ -49,7 +49,6 @@ exit();
 <h2>Udinra Image Sitemap for Britepic</h2>
 <?php $sitemapurl = get_bloginfo('url') . "/sitemap-image.xml"; ?>
 <p>The XML Sitemap was generated successfully. Please open the <a target="_blank" href="<?php echo $sitemapurl; ?>">Sitemap file</a> in your favorite web browser to confirm that there are no errors.</p>
-<p>You can submit your Image XML Sitemap through <a href="http://www.google.com/webmasters/tools/" target="_blank">Webmaster Tools</a> or you can directly <a target="_blank" href="http://www.google.com/webmasters/sitemaps/ping?sitemap=<?php echo $sitemapurl; ?>">ping Google</a>.</p>
 <h3>Suggestions?</h3>
 <p>Please email your suggestions to Udinra at pitaji@udinra.com.</p>
 <p>Are You Making Money With Your Images then Donate Us a small share.</p>
@@ -119,6 +118,11 @@ function image_sitemap_loop () {
 			if (preg_match_all ("/britepic_src=[\'\"](http:\/\/.[^\'\"]+\.(?:jpe?g|png|gif))[\'\"]/ui", 
 				$post->post_content, $matches, PREG_SET_ORDER)) {
 				$i = 1;$k=1;
+				$i = 1;$k=1;
+				$loc = array();
+				$loc1 = array();
+				$loc2 = array();
+
 					$permalink = get_permalink($post->id); 
 					$xml .= "<url>\n";
 					$xml .= " <loc>$permalink</loc>\n";
@@ -152,9 +156,9 @@ function image_sitemap_loop () {
 	$image_sitemap_url = $_SERVER["DOCUMENT_ROOT"] . '/sitemap-image.xml';
 	if (IsImageSitemapWritable($_SERVER["DOCUMENT_ROOT"]) || IsImageSitemapWritable($image_sitemap_url)) {
 		if (file_put_contents ($image_sitemap_url, $xml)) {
-			return true;
+			return true; }
+			else { return false;}
 		}
 	}
-	return false;
  }
 ?>
