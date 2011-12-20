@@ -3,7 +3,7 @@ Contributors: Udinra
 Tags: xml sitemaps, google sitemaps, image sitemap, seo, search engines, sitemap, britepic, monetizing images, adbrite
 Requires at least: 2.9.2
 Tested up to: 3.3
-Stable tag: 1.2
+Stable tag: 2.0
 
 This plugin will help you generate Image Sitemaps (XML) for your WordPress blog from images advertised using Britepic technology of Adbrite. 
 
