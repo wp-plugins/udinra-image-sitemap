@@ -2,8 +2,8 @@
 Contributors: Udinra
 Tags: xml sitemaps, google sitemaps, image sitemap, seo, search engines, sitemap, britepic, monetizing images, adbrite
 Requires at least: 2.9.2
-Tested up to: 3.2.1
-Stable tag: 1.1
+Tested up to: 3.3
+Stable tag: 3.0
 
 This plugin will help you generate Image Sitemaps (XML) for your WordPress blog from images advertised using Britepic technology of Adbrite. 
 
@@ -27,15 +27,15 @@ http://udinra.com/blog/create-image-sitemap-from-britepic-images
 
 = How can I submit my image sitemap to Google and Bing? =
 
-The pro version of plugin does it automatically. 
+The pro version of plugin does it automatically.Download pro version at http://udinra.com/store/products/udinra-image-sitemap-for-britepic-images. 
 
 = Where's the sitemap file stored? =
 
-You can find the sitemap-image.xml file in your blog's root folder.
+You can find all the instructions and trouble shooting at http://udinra.com/blog/create-image-sitemap-from-britepic-images 
 
 = My sitemap is not getting created =
 
-Please create sitemap-image.xml in your Wordpress installation root directory and set the permissions to 666.
+You can find all the instructions and trouble shooting at http://udinra.com/blog/create-image-sitemap-from-britepic-images 
 
 == Screenshots ==
 
