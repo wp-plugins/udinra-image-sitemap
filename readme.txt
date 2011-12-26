@@ -9,13 +9,7 @@ This plugin will help you generate Image Sitemaps (XML) for your WordPress blog 
 
 == Description ==
 
-The plugin generates a XML Image Sitemap from the images powered by Britepic technology of Adbrite.
-
-Britepic is technology of Adbrite which helps you monetize your images by placing advertisements.
-
-The pro version of plugin has many additional features and also support and help is available for pro version users.Download pro version at http://udinra.com/store/products/udinra-image-sitemap-for-britepic-images.
-
-For updates, you can follow the [author](http://udinra.com/).
+Adbrite has discontinued Britepic.So please do not use britepic to monetize your images and instead of using this plugin to create image sitemap you can use Udinra All Image Sitemap which is generalized image sitemap generator.
 
 == Installation ==
 
