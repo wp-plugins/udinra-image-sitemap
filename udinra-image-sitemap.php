@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Udinra Image Sitemap for Britepic 
+Plugin Name: Udinra Image Sitemap for Britepic (Discontinued)
 Plugin URI: http://udinra.com/blog/britepic-image-sitemap-wordpress-plugin
 Description: The plugin generates a XML Image Sitemap from the images powered by Britepic technology of Adbrite.
-Author: Udinra
-Version: 1.1
+Author: <a href="http://udinra.com">Udinra</a>
+Version: 3.1
 Author URI: http://udinra.com/
 */
 
@@ -50,7 +50,7 @@ exit();
 <?php $sitemapurl = get_bloginfo('url') . "/sitemap-image.xml"; ?>
 <p>The XML Sitemap was generated successfully. Please open the <a target="_blank" href="<?php echo $sitemapurl; ?>">Sitemap file</a> in your favorite web browser to confirm that there are no errors.</p>
 <h3>Suggestions?</h3>
-<p>Please email your suggestions to Udinra at pitaji@udinra.com.</p>
+<p>Please email your suggestions to Udinra at http://udinra.com/contact-me</p>
 <p>Are You Making Money With Your Images then Donate Us a small share.</p>
 <p>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">  
@@ -78,7 +78,7 @@ exit();
   </form>
   <p>You can click the button above to generate a Image Sitemap for your website. Once you have created your Sitemap, you should submit it to Google using Webmaster Tools. </p>
   <h3>Suggestions?</h3>
-  <p>Please email your suggestions to Udinra at pitaji@udinra.com.</p>
+  <p>Please email your suggestions to Udinra at http://udinra.com/contact-me.</p>
   <p>Are You Making Money With Your Images then Donate Us a small share.</p>
 <p>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">  
