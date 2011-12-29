@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Udinra Image Sitemap for Britepic (Discontinued)
+Plugin Name: Udinra Image Sitemap for Britepic
 Plugin URI: http://udinra.com/blog/britepic-image-sitemap-wordpress-plugin
 Description: The plugin generates a XML Image Sitemap from the images powered by Britepic technology of Adbrite.
 Author: <a href="http://udinra.com">Udinra</a>
-Version: 3.1
+Version: 3.2
 Author URI: http://udinra.com/
 */
 
